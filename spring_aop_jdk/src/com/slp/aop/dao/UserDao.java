@@ -1,4 +1,4 @@
-package src.com.slp.aop;
+package src.com.slp.aop.dao;
 
 /**
  * @Author shenlp
@@ -8,4 +8,5 @@ package src.com.slp.aop;
 public interface UserDao {
     public int add(int a,int b);
 
+    public String update(String id);
 }
